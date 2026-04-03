@@ -67,7 +67,7 @@ export function ConversationList({ onSelectConversation, activeId = 1 }) {
           className="flex items-center gap-2 px-3 py-2 rounded-xl"
           style={{ backgroundColor: COLORS.surface }}
         >
-          <Search size={18} color={COLORS.textSecondary} />
+          <Search size={14} color={COLORS.textSecondary} />
           <input
             type="text"
             placeholder="Search"
@@ -77,6 +77,7 @@ export function ConversationList({ onSelectConversation, activeId = 1 }) {
             style={{
               color: COLORS.text,
               placeholder: COLORS.textSecondary,
+              fontSize: '14px',
             }}
           />
         </div>
